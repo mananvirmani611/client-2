@@ -254,6 +254,7 @@ body{
 /* FOOTER CSS STARTS HERE */
 
 #footer{
+  padding:40px 0;
   background-color: #0e72b3;
   color: white;
   margin-top: 100px;

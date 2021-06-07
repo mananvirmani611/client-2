@@ -91,6 +91,7 @@ body{
   font-size: 14px;
 }
 #footer{
+    padding:40px 0;
   background-color: #0e72b3;
   color: white;
 }
