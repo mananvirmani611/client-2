@@ -1,0 +1,125 @@
+
+.topper{
+  background-color: #285683;
+  padding: 8px;
+  color: white;
+  padding-right: 17%;
+  padding-left: 14.5%;
+  text-align: right;
+}
+#nav-bar{
+  padding: 2px 15%;
+}
+#navbarNav{
+  text-align: right;
+}
+.nav-link{
+  font-size: 14px;
+  margin: 0 ;
+}
+#background{
+  text-align: center;
+
+  padding: 80px 0;
+}
+
+@media(min-width:992px) and (max-width:1328px){
+  .nav-link{
+    font-size: 12px;
+  }
+}
+.main-heading{
+  font-size: 40px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.container{
+  padding: 3% 12%;
+}
+.left-map-div, .right-map-div{
+  font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.country-heading{
+  color: #5dba51;
+
+}
+.line-break{
+  margin: 20px 0;
+}
+h2{
+  color:#285683;
+  font-weight: bold;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+#get-in-touch{
+  margin-top:30px;
+}
+.form-div{
+  margin-top: 40px;
+}
+.form-input{
+  width: 100%;
+  padding: 9px;
+  background-color: #e5e5e5;
+  border: 0;
+  margin: 10px 0;
+}
+#message-input{
+  height: 102px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e5e5e5;
+  border: 0;
+  padding: 9px;
+}
+.right-div-form{
+  text-align: right;
+}
+#submit-button{
+  padding: 7px 50px;
+  border-radius: 3px;
+  background-color: #5dba51;
+  border: 0;
+  color: white;
+  font-size: 14px;
+}
+#footer{
+  background-color: #0e72b3;
+  color: white;
+}
+.footer-link-headings{
+  color:  #5dba51;
+  padding-left: 30px;
+}
+.quick-link-items{
+  text-decoration: none;
+  color: white;
+}
+.quick-link-items:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.line-break-bottom{
+  width: 100%;
+  margin-left: 20px;
+  border: 1px solid;
+}
+.container-footer{
+  padding: 3% 12%;
+}
+
+.fa{
+  margin: 0 10px;
+  color: white;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
