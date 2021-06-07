@@ -1,0 +1,89 @@
+body{
+padding: 8px;
+}
+.features-one{
+ background: url("../css/img/features_Banner-min.jpg");
+ height: 50vh;
+ padding: 10rem;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+h1{
+font-weight: 700;
+color: #285583;
+font-size: 34px;
+padding-left: 14%;
+padding-top: 4%;
+}
+.container-two{
+padding-top: 4%;
+}
+.hydro{
+color: #275682;
+font-weight: 700;
+font-size: 27px;
+padding-left: 34%;
+}
+.flask-machine{
+color: #275682;
+font-weight: 700;
+font-size: 16px;
+}
+.flask-machine1{
+color: #285583;
+font-weight: 500;
+font-size: 11px;
+}
+.hydro-para{
+padding-left: 34%;
+color: black;
+font-size: 12px;
+line-height: 20px;
+font-weight: 500;
+text-align: justify;
+}
+hr.line1{
+margin-left: 9%;
+border: .3px solid #73fc03;
+width: 96%;
+}
+.features-three{
+padding-top: 1%;
+}
+.Hygiene-Practices{
+color: #275682;
+font-weight: 700;
+font-size: 25px;
+}
+.cleaning{
+color: #78C56D;
+font-weight: bold;
+font-size: 13px;
+line-height: 8px;
+padding-top: 10px;
+}
+.action{
+color: #275682;
+font-weight: 700;
+font-size: 27px;
+}
+.image-text{
+color: #78C56D;
+font-size: 17px;
+font-weight: 600;
+}
+.image-shift{
+margin-left: -9%;
+}
+.hydro-para1{
+color: black;
+font-size: 12px;
+line-height: 20px;
+font-weight: 500;
+
+}
+.column-change{
+margin-left: 4%;
+
+}

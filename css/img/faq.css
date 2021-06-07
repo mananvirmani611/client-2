@@ -1,0 +1,18 @@
+.topper{
+  background-color: #285683;
+  padding: 8px;
+  color: white;
+  padding-right: 17%;
+  padding-left: 14.5%;
+  text-align: right;
+}
+#nav-bar{
+  padding: 100px;
+}
+#navbarNav{
+  text-align: right;
+}
+.nav-link{
+  font-size: 14px;
+  margin: 0 10px;
+}

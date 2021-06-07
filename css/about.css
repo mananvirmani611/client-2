@@ -1,0 +1,137 @@
+body{
+padding: 8px;
+}
+.first{
+ background: url("../css/img/about-banner.jpg");
+ height: 50vh;
+ padding: 10rem;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.banner-head{
+ font-weight: 700;
+ font-size: 5rem;
+}
+.second{	
+}
+.our-purpose{
+ color: #035488;
+ font-weight: 700;
+ font-size: 28px;
+ padding-top: 8%;
+}
+.first-image{
+margin-left: 14%;
+}
+.first-sub-head{
+font-size: 11px;
+text-align: justify;
+line-height: 20px;
+}
+.our-vision{
+color: #035488;
+ font-weight: 700;
+ font-size: 28px;
+ /* padding-top: 8%; */
+}
+.column2{
+margin-left: 15%;
+padding-top: 0;
+}
+.second-image{
+margin-top: -1%;
+}
+.six{
+background-color: hsl(0, 0%, 90%);
+transition: background-color 300ms;
+padding-bottom: 30px;
+}
+h2{
+color: #035488;
+font-weight: 600;
+}
+/* Carousel css code starts from here */
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+/* .card {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px 20px 0px 0px;
+} */
+/* .card-body{
+padding-top: 10px;
+padding-bottom: 10px;
+
+} */
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  width: 22rem;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  height: 30rem;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-item{
+  transition: transform 3s ease, opacity .9s ease-in;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: blue;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-20%,-50%);
+}
+.carousel-control-prev{
+transform: translate(-20%,-50%);
+
+}
+.carousel-control-next {
+transform: translate(20%,-50%);
+}
+.change-color{
+    font-weight: 700;
+    color: #5dba51;
+    font-size: 14px;
+}
+.change-color1{
+color: #285683;
+font-weight: 600;
+}
+.slide-image, .card, .card-body{
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+}
+.card-body{
+  position: absolute;
+  top: 64%;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 21rem;
+  }
+}
+
+/* @media only screen and (max-width: 1920px){
+    .our-purpose{
+        font-size: 24px;
+    }
+    .first-sub-head{
+        font-size: 16px;
+        line-height: 24px;
+    }
+} */
+/* Carousel css code ends here */
