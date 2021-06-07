@@ -8,7 +8,7 @@
   text-align: right;
 }
 #nav-bar{
-  padding: 2px 15%;
+  padding: 2px 18%;
 }
 #navbarNav{
   text-align: right;
@@ -34,8 +34,8 @@ body{
 
 #background{
   text-align: center;
-
-  padding: 80px 0;
+ background-size: cover;
+  padding: 90px 0;
 }
 .main-heading{
   font-size: 40px;
@@ -53,11 +53,19 @@ body{
   font-weight: 300;
 }
 
+.first-sub-head{
+  font-weight: 400;
+}
 
 
-
-
-
+.four, .three, .second, .five{
+  margin-top:-30px;
+}
+@media (max-width:992px) {
+  .four, .three, .second, .five{
+    margin-top:0;
+  }
+}
 
 
 /* FOOTER CSS STARTS HERE */
@@ -78,8 +86,7 @@ body{
 }
 .quick-link-items:hover{
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: #5dba51;
 }
 .line-break-bottom{
   width: 100%;
