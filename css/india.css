@@ -3,12 +3,12 @@
   background-color: #285683;
   padding: 8px;
   color: white;
-  padding-right: 17%;
+  padding-right: 19.5%;
   padding-left: 14.5%;
   text-align: right;
 }
 #nav-bar{
-  padding: 2px 15%;
+  padding: 2px 18%;
 }
 #navbarNav{
   text-align: right;
@@ -278,8 +278,7 @@ body{
 }
 .quick-link-items:hover{
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: #5dba51;
 }
 .line-break-bottom{
   width: 100%;
