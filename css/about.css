@@ -32,6 +32,18 @@ body{
   padding: 1% 10%;
 }
 
+#background{
+  text-align: center;
+
+  padding: 80px 0;
+}
+.main-heading{
+  font-size: 40px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
 
 
 

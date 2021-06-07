@@ -120,8 +120,8 @@ Main activities of Forbes Marshall are steam solutions for industry (boilers, cl
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-8">
+          <div class="row equal-width">
+            <div class="col-lg-6">
 
               <img src="second-left.png" alt="" id="first-image" style="width:100%;">
             </div>
@@ -129,8 +129,8 @@ Main activities of Forbes Marshall are steam solutions for industry (boilers, cl
               <img src="second-left-3.png" class="first-images" alt="" style="width:100%;">
 
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <img src="second-left-1.png" class="first-images" alt="" style="width:100%;">
+            <div class="col-lg-2 col-sm-4 width">
+              <img src="second-left-1.jpg" class="first-images" alt="" style="width:100%;">
 
             </div>
             <div class="col-lg-2 col-sm-4 third-image">
@@ -147,7 +147,7 @@ Main activities of Forbes Marshall are steam solutions for industry (boilers, cl
       <div class="">
           <div class="row">
             <div class="col-lg-6">
-              <h3 class="third-heading">Helping hand to
+              <h3 class="third-heading">Helping hand to <br>
 Clean India Project</h3>
 <p class="description-para">Swiss-NeWater India offers a helping hand to Clean India Project
 Govt bodies: Central & State through the revolutionary HydroCleaner!
@@ -166,7 +166,7 @@ A disinfectant & cleaning solutions generating machine.</p>
           <h2 class="fourth-heading">India Events</h2>
           <div class="row">
             <div class="col-lg-4">
-              <img src="third-left.png" alt="" style="width:100%;">
+              <img src="third-left.png" alt="" style="width:100%;" onclick="closeModal()">
               <h6 class="description-title">Clean India 2020</h6>
             </div>
             <div class="col-lg-4">
@@ -185,6 +185,8 @@ A disinfectant & cleaning solutions generating machine.</p>
 
 
   </div>
+
+
 
   <div class="team">
     <h4 class="team-heading">Team India</h4>
@@ -345,7 +347,48 @@ A disinfectant & cleaning solutions generating machine.</p>
       </div>
     </div>
 </section>
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
 
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
   <script src="js/india.js">
 
