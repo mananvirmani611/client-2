@@ -153,6 +153,6 @@ background-image:url('img/Tech-banner.jpg');
 @media (max-width:480px){
   .topper{
     padding-left:0;
-    padding-right: 5%;
+    padding-right: 0;
   }
 }

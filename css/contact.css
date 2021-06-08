@@ -143,7 +143,7 @@ body{
 }
 @media (max-width:480px){
   .topper{
-    padding-left:2%;
-    padding-right: 8%;
+    padding-left:0;
+    padding-right:0;
   }
 }

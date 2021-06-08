@@ -447,6 +447,6 @@ img.hover-shadow {
 @media (max-width:480px){
   .topper{
     padding-left:0;
-    padding-right: 5%;
+    padding-right:0;
   }
 }
