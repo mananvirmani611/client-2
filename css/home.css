@@ -1,0 +1,17 @@
+#carouselExampleCaptions{
+  padding-bottom: 300px;
+}
+#carouselExampleDark{
+  padding: 60px 0;
+}
+.div-for-small{
+  display: none;
+}
+@media (max-width:992px){
+  .div-for-large{
+    display: none;
+  }
+  .div-for-small{
+    display: block;
+  }
+}

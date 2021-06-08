@@ -172,6 +172,7 @@ body{
   div#background{
     background-image: url('features-3.png');
     padding: 20px;
+    background-repeat: no-repeat;
   }
   .secondimage{
     display: inline-block;
@@ -181,4 +182,6 @@ body{
 }
 #background{
 background-image:url('Features.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }

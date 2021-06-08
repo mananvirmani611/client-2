@@ -138,3 +138,15 @@ body{
 #background{
 background-image:url('img/Tech-banner.jpg');
 }
+
+@media (min-width:1480px){
+  #nav-bar{
+    padding: 2px 28% 2px 30%;
+  }
+  .topper{
+    padding-right: 30%;
+  }
+  #background{
+    padding-bottom: 150px;
+  }
+}

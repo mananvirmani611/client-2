@@ -141,3 +141,9 @@ body{
   border: 2px solid white;
   border-radius: 5px;
 }
+@media (max-width:480px){
+  .topper{
+    padding-left:2%;
+    padding-right: 8%;
+  }
+}
