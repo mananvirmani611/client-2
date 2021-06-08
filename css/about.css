@@ -128,3 +128,9 @@ body{
   color: #285683;
   font-weight: bold;
 }
+@media (max-width:480px){
+  .topper{
+    padding-left:0;
+    padding-right: 5%;
+  }
+}
