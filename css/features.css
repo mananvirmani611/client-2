@@ -8,7 +8,7 @@
   text-align: right;
 }
 #nav-bar{
-  padding: 2px 15%;
+  padding: 2px 17% 2px 14%;
 }
 #navbarNav{
   text-align: right;
@@ -29,13 +29,13 @@ body{
   }
 }
 .container{
-  padding: 1% 10%;
+  padding: 1% 7%;
 }
 
 #background{
   text-align: left;
-
-  padding: 130px 0 130px 150px;
+  background-image: url('Features.png');
+  padding: 120px 0 120px 0;
 }
 .main-heading{
   font-size: 40px;
@@ -73,12 +73,37 @@ body{
 }
 
 .points{
-  padding: 20px 0;
+  padding: 13px 10px 0 10px;
 }
 .tanks{
   text-align: center;
 }
+#logo-image{
+  width:100%;
+   margin-top:-26px;
+}
+@media (max-width:992px) and (min-width:600px){
+  #logo-image{
+    width: 60%;
+  }
+  #advantages-heading{
+    font-size: 26px;
+  }
+}
+@media (max-width:600px) {
+  #advantages-heading{
+    font-size: 24px;
+  }
+  #logo-image{
+    width: 100%;
+  }
+}
 
+.subheadings{
+  font-size: 20px;
+  color: #5dba51;
+  font-weight: bold;
+}
 
 /* FOOTER CSS STARTS HERE */
 
@@ -139,4 +164,21 @@ body{
   font-size: 28px;
   color: #285683;
   font-weight: bold;
+}
+.secondimage{
+  display: none;
+}
+@media screen and (max-width: 992px){
+  div#background{
+    background-image: url('features-3.png');
+    padding: 20px;
+  }
+  .secondimage{
+    display: inline-block;
+    width: 70%;
+    margin:0 auto;
+  }
+}
+#background{
+background-image:url('Features.png');
 }
