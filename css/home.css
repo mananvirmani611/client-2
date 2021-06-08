@@ -2,17 +2,26 @@
   padding-bottom: 300px;
 }
 #carouselExampleDark{
-  padding: 60px 0;
+  /* padding: 60px 0; */
+}
+.main-image{
+  padding:5% 12% 5% 2%;
 }
 .div-for-small{
   display: none;
 }
-@media (max-width:992px){
+@media (max-width:1200px){
   .div-for-large{
     display: none;
   }
+  .main-image{
+    padding:5% 8% 5% 8%;
+  }
   .div-for-small{
     display: block;
+  }
+  #carouselExampleDark{
+    padding: 60px 0;
   }
 }
 @media (max-width:480px){

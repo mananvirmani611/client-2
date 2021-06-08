@@ -137,7 +137,7 @@ body{
 .fa{
   margin: 0 10px;
   color: white;
-  padding: 5px;
+  padding: 5px;  font-size: 10px;
   border: 2px solid white;
   border-radius: 5px;
 }
