@@ -120,3 +120,21 @@ body{
   border: 2px solid white;
   border-radius: 5px;
 }
+
+.secondimage{
+  display: none;
+}
+@media screen and (max-width: 992px){
+  div#background{
+    background-image: url('img/short-banner.jpg');
+    padding: 20px;
+  }
+  .secondimage{
+    display: inline-block;
+    width: 70%;
+    margin:0 auto;
+  }
+}
+#background{
+background-image:url('img/Tech-banner.jpg');
+}
