@@ -8,7 +8,7 @@
   text-align: right;
 }
 #nav-bar{
-    padding: 2px 17%;
+  padding: 2px 17%;
 }
 @media (max-width:1095px) and (min-width:992px) {
   #nav-bar{

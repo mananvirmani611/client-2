@@ -3,12 +3,12 @@
   background-color: #285683;
   padding: 8px;
   color: white;  font-size: 10px;
-  padding-right: 17%;
+  padding-right: 18%;
   padding-left: 14.5%;
   text-align: right;
 }
 #nav-bar{
-  padding: 2px 17% 2px 14%;
+  padding: 2px 17%;
 }
 #navbarNav{
   text-align: right;
@@ -29,7 +29,7 @@ body{
   }
 }
 .container{
-  padding: 1% 7%;
+    padding: 1% 11%;
 }
 
 #background{
