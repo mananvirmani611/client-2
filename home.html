@@ -14,7 +14,7 @@
   </head>
     <body>
       <div class="topper">
-        info@swiss-newater.com  |   + 41 22 800 22 00
+    <a href="mailto:info@swiss-newater.com" style="color:white; text-decoration:none;">info@swiss-newater.com</a>  |   <a href="tel:+ 41228002200" style="color:white; text-decoration:none;">+ 41 22 800 22 00</a>
         <a href="https://www.youtube.com/channel/UC15GoEQWZjkKZzRL6vrEamQ"><i class="fa fa-youtube-play" style="border-radius:100%; border:1px solid; margin:0 0 0 10px;"></i></a>
           <a href="https://www.instagram.com/swissnewater/"><i class="fa fa-instagram" style="border-radius:100%; border:1px solid; margin:0;"></i></a>
 
@@ -272,6 +272,8 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
+
+
   <div class="carousel-inner"  style="background-image: linear-gradient(#285683, white, white);">
     <div class="carousel-item active" data-bs-interval=false>
 
@@ -280,7 +282,9 @@
           <div class="" style="height:65%;">
 
           <h1 style="color:#285683; font-size: 48px; font-weight: bold;"><p id="demo"></p></h1>
-            <h3 style="color:#285683; font-weight: 500;"><p id="demo2"></p>
+            <h3 style="color:#285683; font-weight: 600;">
+              <p id="demo2" style="margin-bottom:5px;"></p>
+              <p id="demo3" style="margin-top:0;"></p>
             </h3>
           </div>
             <img src="css/img/brand-img5.png" alt="">
@@ -518,16 +522,21 @@
     <script>
     var i = 0;
     var txt = 'Welcome to Swiss NeWater';
-    var txt2 = "Healthiest way to clean\n" +  "\nSafest Way to handle"
+    const txt2 = 'Healthiest way to clean';
+    const txt3 = "Safest Way to handle";
+    console.log(txt2);
     var speed = 120;
     var speed2 = 80;
     var i2 = 0;
-
+    var i3 = 0;
 
     typeWriter();
     setTimeout(function(){
       typeWriter2()
     }, 4500);
+     setTimeout(function(){
+        typeWriter3()
+      }, 7500);
 
     var j = 0;
     function typeWriter() {
@@ -538,13 +547,21 @@
       }
 
     }
-    function typeWriter2() {
-          if (i2 < txt2.length) {
-            document.getElementById("demo2").innerHTML += txt2.charAt(i2);
-            i2++;
-            setTimeout(typeWriter2, speed2);
+    function typeWriter3() {
+          if (i3 < txt3.length) {
+            document.getElementById("demo3").innerHTML += txt3.charAt(i3);
+            i3++;
+            setTimeout(typeWriter3, speed2);
           }
         }
+        function typeWriter2() {
+              if (i2 < txt2.length) {
+                document.getElementById("demo2").innerHTML += txt2.charAt(i2);
+                i2++;
+                setTimeout(typeWriter2, speed2);
+              }
+            }
+
 
   AOS.init({
     offset: 100,

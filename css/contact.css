@@ -73,7 +73,7 @@ h2{
 }
 body{
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+font-size: 16px!important;
   font-weight: 300;
 }
 #get-in-touch{
