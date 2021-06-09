@@ -161,6 +161,10 @@ background-image:url('img/Tech-banner.jpg');
   color:#5dba51;
   border: 1px solid #5dba51;
 }
+#ig:hover{
+  color:#5dba51;
+  border: 1px solid #5dba51;
+}
 #about-link:hover{
   color:#5dba51;
 }
