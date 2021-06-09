@@ -3,6 +3,7 @@
   background-color: #285683;
   padding: 8px;
   color: white;
+  font-size: 10px;
   padding-right: 18%;
   padding-left: 14.5%;
   text-align: right;
@@ -144,6 +145,6 @@ body{
 @media (max-width:480px){
   .topper{
     padding-left:0;
-    padding-right:0;
+    padding-right: 2%;
   }
 }
