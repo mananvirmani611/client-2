@@ -1,5 +1,5 @@
-/* CSS FOR HEADER */
 .topper{
+/* CSS FOR HEADER */
   background-color: #285683;
   padding: 8px;
   color: white;
@@ -494,4 +494,54 @@ body { font-family: sans-serif; }
     border-radius: 5px;
     counter-increment: carousel-cell;
   }
+}
+.fa:hover{
+  color:#5dba51;
+  border: 1px solid #5dba51;
+}
+#about-link:hover{
+  color:#5dba51;
+}
+
+#about-link1:hover{
+  color:#5dba51;
+}
+#about-link2:hover{
+  color:#5dba51;
+}
+#about-link3:hover{
+  color:#5dba51;
+}
+#about-link5:hover{
+  color:#5dba51;
+}
+#about-link4:hover{
+  color:#5dba51;
+}
+#about-link6:hover{
+  color:#5dba51;
+}
+#home-link:hover{
+  color: #5dba51;
+}
+#about-link{
+  color:#285683;
+}
+#about-link2{
+  color:#285683;
+}
+#about-link3{
+  color:#285683;
+}
+#about-link4{
+  color:#285683;
+}
+#about-link5{
+  color:#285683;
+}
+#about-link6{
+  color:#285683;
+}
+#home-link{
+  color:#285683;
 }

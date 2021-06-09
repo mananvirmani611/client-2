@@ -157,3 +157,53 @@ background-image:url('img/Tech-banner.jpg');
     padding-right: 2%;
   }
 }
+.fa:hover{
+  color:#5dba51;
+  border: 1px solid #5dba51;
+}
+#about-link:hover{
+  color:#5dba51;
+}
+
+#about-link1:hover{
+  color:#5dba51;
+}
+#about-link2:hover{
+  color:#5dba51;
+}
+#about-link3:hover{
+  color:#5dba51;
+}
+#about-link5:hover{
+  color:#5dba51;
+}
+#about-link4:hover{
+  color:#5dba51;
+}
+#about-link6:hover{
+  color:#5dba51;
+}
+#home-link:hover{
+  color: #5dba51;
+}
+#about-link{
+  color:#285683;
+}
+#about-link2{
+  color:#285683;
+}
+#about-link3{
+  color:#285683;
+}
+#about-link4{
+  color:#285683;
+}
+#about-link5{
+  color:#285683;
+}
+#about-link6{
+  color:#285683;
+}
+#home-link{
+  color:#285683;
+}

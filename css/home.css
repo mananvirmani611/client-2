@@ -10,7 +10,7 @@
 .div-for-small{
   display: none;
 }
-@media (max-width:1200px){
+@media (max-width:900px){
   .div-for-large{
     display: none;
   }
@@ -21,7 +21,7 @@
     display: block;
   }
   #carouselExampleDark{
-    padding: 60px 0;
+    padding: 10px 0;
   }
 }
 @media (max-width:480px){
@@ -29,4 +29,59 @@
     padding-left:0;
     padding-right: 2%;
   }
+}
+.fa:hover{
+  color:#5dba51;
+  border: 1px solid #5dba51;
+}
+#about-link:hover{
+  color:#5dba51;
+}
+
+#about-link1:hover{
+  color:#5dba51;
+}
+#about-link2:hover{
+  color:#5dba51;
+}
+#about-link3:hover{
+  color:#5dba51;
+}
+#about-link5:hover{
+  color:#5dba51;
+}
+#about-link4:hover{
+  color:#5dba51;
+}
+#about-link6:hover{
+  color:#5dba51;
+}
+#home-link:hover{
+  color: #5dba51;
+}
+#about-link{
+  color:#285683;
+}
+#about-link2{
+  color:#285683;
+}
+#about-link3{
+  color:#285683;
+}
+#about-link4{
+  color:#285683;
+}
+#about-link5{
+  color:#285683;
+}
+#about-link6{
+  color:#285683;
+}
+#home-link{
+  color:#285683;
+}
+
+  @-webkit-keyframes pop-in {
+0% { opacity: 0; -webkit-transform: scale(0.5); }
+100% { opacity: 1; -webkit-transform: scale(1); }
 }
