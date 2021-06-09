@@ -213,3 +213,32 @@ body { font-family: sans-serif; }
   font-size: 80px;
   color: white;
 }
+@media (min-width:992px){
+  .div-for-small{
+  display: none;
+}}
+@media(max-width:992px){
+  .div-for-large{
+    display: none;
+  }
+}
+@media (max-width:992px) and (min-width:756px){
+
+  .carousel-cell {
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+}
+
+@media (max-width:756px){
+  .carousel-cell {
+    width: 50%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+}
