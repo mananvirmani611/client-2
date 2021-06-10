@@ -267,34 +267,37 @@
 
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" style="margin-bottom:24px;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
 
 
-  <div class="carousel-inner"  style="background-image: linear-gradient(#285683, white, white);">
-    <div class="carousel-item active" data-bs-interval=false>
+  <div class="carousel-inner"  style="">
+    <div class="carousel-item active" data-bs-interval="8000">
 
       <div class="row">
         <div class="col-lg-7" style="text-align:left; padding:100px 10% 60px 19%;">
-          <div class="" style="height:65%;">
+          <div class="" style="height:60%;">
 
-          <h1 style="color:#285683; font-size: 48px; font-weight: bold;"><p id="demo"></p></h1>
+          <h1 style="color:#285683; font-size: 44px; font-weight: bold;"><p id="demo"></p></h1>
             <h3 style="color:#285683; font-weight: 600;">
-              <p id="demo2" style="margin-bottom:5px;"></p>
-              <p id="demo3" style="margin-top:0;"></p>
+              <p id="demo2" style="font-size:26px; margin-bottom:5px;"></p>
+              <p id="demo3" style="margin-top:0;font-size:26px; "></p>
             </h3>
           </div>
-            <img src="css/img/brand-img5.png" alt="">
-        </div>
+          <div class="" style="height:40%;">
+
+            <img src="css/img/brand-img5.png" alt="" style="width:43%;">
+          </div>
+          </div>
         <div class="col-lg-5 main-image" style="padding:6% 17% 6% 0;">
                 <img src="home.png" alt="" style="width:100%;">
         </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="6000">
       <div class="div-for-large" style="padding-bottom:42px;">
 
 
@@ -302,7 +305,7 @@
 
         <img src="./css/img/website_sliders_final_2.jpg" alt=""style="width:100%;">
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 15px;">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 45px;">
       <p style="color:#285683; font-size:20px;" id="animation" class="main-para main-text animate__animated animate__zoomIn animation">
        A revolutionary concept that's set to redefine cleaning
        practices at
@@ -330,7 +333,7 @@
       </div>
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="6000">
       <div class="div-for-large" style="padding-bottom:42px;">
 
 
@@ -338,7 +341,7 @@
 
         <img src="./css/img/website_sliders_final_3.jpg" alt=""style="width:100%;">
       </div>
-      <div class="carousel-caption d-none d-md-block"style="padding-bottom: 15px;">
+      <div class="carousel-caption d-none d-md-block"style="padding-bottom: 45px;">
       <p style="color:#285683; font-size:20px;" class="main-para main-text animate__animated animate__zoomIn">
        A revolutionary concept that's set to redefine cleaning
        practices at
@@ -364,7 +367,7 @@
     </div>
   </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="6000">
       <div class="div-for-large" style="padding-bottom:42px;">
 
 
@@ -372,7 +375,7 @@
 
         <img src="./css/img/website_sliders_final_4.jpg" alt="" style="width:100%;">
       </div>
-      <div class="carousel-caption d-none d-md-block"  style="">
+      <div class="carousel-caption d-none d-md-block"  style="padding-bottom: 45px;">
       <p style="color:#285683; font-size:20px;" class="main-para main-text animate__animated animate__zoomIn">
        A revolutionary concept that's set to redefine cleaning
        practices at
@@ -423,7 +426,7 @@
 
 
 
-    <section id="footer">
+    <section id="footer" style="margin-top:-40px;">
         <div class="container-footer">
           <div class="row">
             <div class="col-lg-4 col-sm-6">
@@ -525,18 +528,18 @@
     const txt2 = 'Healthiest way to clean';
     const txt3 = "Safest Way to handle";
     console.log(txt2);
-    var speed = 120;
-    var speed2 = 80;
+    var speed = 100;
+    var speed2 = 40;
     var i2 = 0;
     var i3 = 0;
 
     typeWriter();
     setTimeout(function(){
       typeWriter2()
-    }, 4500);
+    }, 3500);
      setTimeout(function(){
         typeWriter3()
-      }, 7500);
+      }, 6000);
 
     var j = 0;
     function typeWriter() {

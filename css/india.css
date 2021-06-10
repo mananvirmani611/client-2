@@ -40,8 +40,20 @@ body{
 }
 #background{
   text-align: center;
-
   padding: 140px 0;
+background-image: url('india.png');
+ background-repeat:no-repeat;
+}
+@media (min-width:1152px){
+  #background{
+
+    background-size: 100%;
+  }
+}
+@media (max-width:1152px){
+  #background{
+    padding-bottom: 140px;
+  }
 }
 .main-heading{
   font-size: 40px;
