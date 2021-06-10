@@ -493,9 +493,32 @@ body { font-family: sans-serif; }
 @media (min-width:992px){
   .div-for-small{
   display: none;
+}
+}
+@media (min-width:600px) and (max-width:992px){
+  .div-for-large{
+  display: none;
+}
+.carousel-cell {
+  width: 33%;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }}
-
 @media (max-width:992px){
+  .div-for-large{
+    display: none;
+  }
+  .carousel-cell {
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+}
+@media (max-width:768px){
   .div-for-large{
     display: none;
   }
@@ -507,6 +530,7 @@ body { font-family: sans-serif; }
     counter-increment: carousel-cell;
   }
 }
+
 .fa:hover{
   color:#5dba51;
   border: 1px solid #5dba51;
