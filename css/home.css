@@ -87,3 +87,7 @@
 }
 .carousel .carousel-indicators button {  background-color: #b2ffa8; }
 .carousel .carousel-indicators button.active { background-color: #5dba51; }
+
+html, body{
+  width: 100%;overflow-x: hidden;
+}

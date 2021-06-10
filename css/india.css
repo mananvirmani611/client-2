@@ -581,3 +581,6 @@ body { font-family: sans-serif; }
 #home-link{
   color:#285683;
 }
+html, body{
+  width: 100%;overflow-x: hidden;
+}
